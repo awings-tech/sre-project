@@ -1,10 +1,11 @@
+import socket
 from flask import Flask
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from my SRE project!"
+    return f"Hello from pod: {socket.gethostname()}\n"
 
 @app.route("/health")
 def health():
