@@ -13,7 +13,7 @@ Kubernetes, monitoring and incident response.
 
 - [x] Flask app with /health endpoint
 - [x] Dockerfile
-- [ ] GitHub Actions pipeline
-- [ ] Kubernetes deployment
+- [x] GitHub Actions pipeline
+- [x] Kubernetes deployment
 - [ ] Prometheus + Grafana monitoring
 - [ ] Deploy on labhyam.in
